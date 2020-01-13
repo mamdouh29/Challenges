@@ -40,7 +40,8 @@ Try to write program that counts from 0 to 10 using python
 
 
 #------------------ @start:ممدوح------------------------------
-
+for i in range(11):
+  print(i)
 
 
 #-------------------- @end:ممدوح------------------------------
