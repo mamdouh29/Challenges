@@ -48,7 +48,16 @@ Number of odd numbers : 5
 
 #------------------ @start:ممدوح------------------------------
 
-
+odd = []
+even = []
+for i in range(11):
+    if i % 2 == 0:
+        odd.append(i)
+    else:
+        even.append(i)
+    i += 1
+print('Number of even numbers: ', len(even))
+print('Number of odd numbers:', len(odd))   
 
 #-------------------- @end:ممدوح------------------------------
 
