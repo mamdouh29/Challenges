@@ -54,6 +54,15 @@ firstline = moon
 #------------------ @start:ممدوح------------------------------
 
 
+with open('sky.txt', 'r') as line:
+    z = line.read()
+    y = list(z.split('\n'))
+    firstline = y[0]
+    with open('sky2.txt','w') as write:
+        write.write(z)
+print(f'{y} \nfirst line = {firstline} ')
+
+
 
 #-------------------- @end:ممدوح------------------------------
 
